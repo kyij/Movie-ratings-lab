@@ -1,0 +1,22 @@
+Min viable product features:
+View a list of all movies
+
+View the details of one movie
+
+View a list of all users
+
+View the details of one user (a.k.a. the user’s profile page)
+
+Create an account
+
+Log in with an account that already exists
+
+Once users have logged in, they’ll be able to rate movies between 0–5
+
+
+Can multiple users rate the same movie? In other words, how many ratings can a movie have?
+-Avg out the value of every user rating and set that as the displayed rating.
+Can one user rate multiple movies?
+-Yes
+How will you associate a rating with a certain user and movie?
+-Dispay every user rating on their profile page
