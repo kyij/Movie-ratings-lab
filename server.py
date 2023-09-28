@@ -68,7 +68,7 @@ def login_user():
     if not user or user.password != password:
         flash("This email or password you entered is incorrect.")
     else:
-        session["user_email"] = user.email
+        session["useremail"] = user.email
         flash(f"Welcome back {user.email}!")
     
     return redirect('/')
